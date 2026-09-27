@@ -1,0 +1,12 @@
+import {spawn} from 'node:child_process';
+import {existsSync} from 'node:fs';
+import {delimiter,resolve} from 'node:path';
+const python=process.env.PYTHON||'python3';
+const localDeps=resolve('work/python-deps');
+const pythonPath=[existsSync(localDeps)?localDeps:'',process.env.PYTHONPATH||''].filter(Boolean).join(delimiter);
+const env={...process.env,PYTHONPATH:pythonPath};
+const children=[spawn(python,['-m','backend.app'],{stdio:'inherit',env}),spawn('npm',['run','dev'],{stdio:'inherit',env})];
+let shuttingDown=false;
+const stop=()=>{if(shuttingDown)return;shuttingDown=true;for(const child of children)if(!child.killed)child.kill('SIGTERM')};
+for(const child of children)child.on('exit',code=>{if(!shuttingDown&&code!==0){stop();process.exitCode=code||1}});
+process.on('SIGINT',()=>{stop();process.exit(0)});process.on('SIGTERM',()=>{stop();process.exit(0)});

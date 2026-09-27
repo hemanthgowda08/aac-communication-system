@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.npm-cache/
+.DS_Store
+backend/*.sqlite3
+__pycache__/
+*.pyc
+.venv/
+work/python-deps/

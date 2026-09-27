@@ -1,0 +1,524 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "All words",
+      "icon": "◫",
+      "color": "#dff2ec"
+    },
+    {
+      "id": "needs",
+      "name": "Basic needs",
+      "icon": "♡",
+      "color": "#fce9df"
+    },
+    {
+      "id": "feelings",
+      "name": "Feelings",
+      "icon": "☼",
+      "color": "#f8edcc"
+    },
+    {
+      "id": "people",
+      "name": "People",
+      "icon": "♙",
+      "color": "#e9e4f6"
+    },
+    {
+      "id": "places",
+      "name": "Places",
+      "icon": "⌂",
+      "color": "#dcecf7"
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "icon": "➜",
+      "color": "#e6efdb"
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "icon": "✚",
+      "color": "#f6e0e7"
+    },
+    {
+      "id": "food",
+      "name": "Food & drink",
+      "icon": "♨",
+      "color": "#f6eddb"
+    },
+    {
+      "id": "social",
+      "name": "Social",
+      "icon": "☻",
+      "color": "#e1edeb"
+    }
+  ],
+  "items": [
+    {
+      "id": "i",
+      "category": "social",
+      "emoji": "🙋",
+      "en": "I",
+      "hi": "मुझे",
+      "kn": "ನನಗೆ"
+    },
+    {
+      "id": "want",
+      "category": "needs",
+      "emoji": "✨",
+      "en": "want",
+      "hi": "चाहिए",
+      "kn": "ಬೇಕು"
+    },
+    {
+      "id": "need",
+      "category": "needs",
+      "emoji": "🙏",
+      "en": "need",
+      "hi": "ज़रूरत है",
+      "kn": "ಬೇಕು"
+    },
+    {
+      "id": "water",
+      "category": "food",
+      "emoji": "💧",
+      "en": "water",
+      "hi": "पानी",
+      "kn": "ನೀರು"
+    },
+    {
+      "id": "food",
+      "category": "food",
+      "emoji": "🍚",
+      "en": "food",
+      "hi": "खाना",
+      "kn": "ಊಟ"
+    },
+    {
+      "id": "toilet",
+      "category": "needs",
+      "emoji": "🚻",
+      "en": "toilet",
+      "hi": "शौचालय",
+      "kn": "ಶೌಚಾಲಯ"
+    },
+    {
+      "id": "sleep",
+      "category": "needs",
+      "emoji": "🌙",
+      "en": "sleep",
+      "hi": "सोना",
+      "kn": "ನಿದ್ರೆ"
+    },
+    {
+      "id": "rest",
+      "category": "needs",
+      "emoji": "🛋️",
+      "en": "rest",
+      "hi": "आराम",
+      "kn": "ವಿಶ್ರಾಂತಿ"
+    },
+    {
+      "id": "help",
+      "category": "needs",
+      "emoji": "🆘",
+      "en": "help",
+      "hi": "मदद",
+      "kn": "ಸಹಾಯ"
+    },
+    {
+      "id": "happy",
+      "category": "feelings",
+      "emoji": "😊",
+      "en": "happy",
+      "hi": "खुश",
+      "kn": "ಸಂತೋಷ"
+    },
+    {
+      "id": "sad",
+      "category": "feelings",
+      "emoji": "😢",
+      "en": "sad",
+      "hi": "उदास",
+      "kn": "ದುಃಖ"
+    },
+    {
+      "id": "angry",
+      "category": "feelings",
+      "emoji": "😠",
+      "en": "angry",
+      "hi": "गुस्सा",
+      "kn": "ಕೋಪ"
+    },
+    {
+      "id": "scared",
+      "category": "feelings",
+      "emoji": "😟",
+      "en": "scared",
+      "hi": "डर लगा",
+      "kn": "ಭಯ"
+    },
+    {
+      "id": "tired",
+      "category": "feelings",
+      "emoji": "😴",
+      "en": "tired",
+      "hi": "थका हुआ",
+      "kn": "ದಣಿದಿದೆ"
+    },
+    {
+      "id": "pain",
+      "category": "health",
+      "emoji": "🤕",
+      "en": "in pain",
+      "hi": "दर्द है",
+      "kn": "ನೋವಾಗುತ್ತಿದೆ"
+    },
+    {
+      "id": "thirsty",
+      "category": "feelings",
+      "emoji": "🥤",
+      "en": "thirsty",
+      "hi": "प्यास लगी है",
+      "kn": "ಬಾಯಾರಿಕೆಯಾಗಿದೆ"
+    },
+    {
+      "id": "hungry",
+      "category": "feelings",
+      "emoji": "🍽️",
+      "en": "hungry",
+      "hi": "भूख लगी है",
+      "kn": "ಹಸಿವಾಗಿದೆ"
+    },
+    {
+      "id": "mother",
+      "category": "people",
+      "emoji": "👩",
+      "en": "Mother",
+      "hi": "माँ",
+      "kn": "ಅಮ್ಮ"
+    },
+    {
+      "id": "father",
+      "category": "people",
+      "emoji": "👨",
+      "en": "Father",
+      "hi": "पिता",
+      "kn": "ಅಪ್ಪ"
+    },
+    {
+      "id": "teacher",
+      "category": "people",
+      "emoji": "👩‍🏫",
+      "en": "Teacher",
+      "hi": "शिक्षक",
+      "kn": "ಶಿಕ್ಷಕರು"
+    },
+    {
+      "id": "doctor",
+      "category": "people",
+      "emoji": "🧑‍⚕️",
+      "en": "doctor",
+      "hi": "डॉक्टर",
+      "kn": "ವೈದ್ಯರು"
+    },
+    {
+      "id": "friend",
+      "category": "people",
+      "emoji": "🧑‍🤝‍🧑",
+      "en": "friend",
+      "hi": "दोस्त",
+      "kn": "ಸ್ನೇಹಿತ"
+    },
+    {
+      "id": "home",
+      "category": "places",
+      "emoji": "🏠",
+      "en": "home",
+      "hi": "घर",
+      "kn": "ಮನೆ"
+    },
+    {
+      "id": "school",
+      "category": "places",
+      "emoji": "🏫",
+      "en": "school",
+      "hi": "स्कूल",
+      "kn": "ಶಾಲೆ"
+    },
+    {
+      "id": "hospital",
+      "category": "places",
+      "emoji": "🏥",
+      "en": "hospital",
+      "hi": "अस्पताल",
+      "kn": "ಆಸ್ಪತ್ರೆ"
+    },
+    {
+      "id": "bathroom",
+      "category": "places",
+      "emoji": "🚿",
+      "en": "bathroom",
+      "hi": "बाथरूम",
+      "kn": "ಸ್ನಾನಗೃಹ"
+    },
+    {
+      "id": "outside",
+      "category": "places",
+      "emoji": "🌳",
+      "en": "outside",
+      "hi": "बाहर",
+      "kn": "ಹೊರಗೆ"
+    },
+    {
+      "id": "go",
+      "category": "actions",
+      "emoji": "➡️",
+      "en": "go",
+      "hi": "जाना",
+      "kn": "ಹೋಗು"
+    },
+    {
+      "id": "come",
+      "category": "actions",
+      "emoji": "👋",
+      "en": "come",
+      "hi": "आओ",
+      "kn": "ಬನ್ನಿ"
+    },
+    {
+      "id": "stop",
+      "category": "actions",
+      "emoji": "✋",
+      "en": "stop",
+      "hi": "रुको",
+      "kn": "ನಿಲ್ಲಿಸಿ"
+    },
+    {
+      "id": "wait",
+      "category": "actions",
+      "emoji": "⏳",
+      "en": "wait",
+      "hi": "रुको",
+      "kn": "ಕಾಯಿರಿ"
+    },
+    {
+      "id": "sit",
+      "category": "actions",
+      "emoji": "🪑",
+      "en": "sit",
+      "hi": "बैठना",
+      "kn": "ಕುಳಿತುಕೊಳ್ಳಿ"
+    },
+    {
+      "id": "stand",
+      "category": "actions",
+      "emoji": "🧍",
+      "en": "stand",
+      "hi": "खड़े होना",
+      "kn": "ನಿಂತುಕೊಳ್ಳಿ"
+    },
+    {
+      "id": "sick",
+      "category": "health",
+      "emoji": "🤒",
+      "en": "I feel sick",
+      "hi": "मैं बीमार हूँ",
+      "kn": "ನನಗೆ ಅನಾರೋಗ್ಯ"
+    },
+    {
+      "id": "medicine",
+      "category": "health",
+      "emoji": "💊",
+      "en": "I need medicine",
+      "hi": "मुझे दवा चाहिए",
+      "kn": "ಔಷಧಿ ಬೇಕು"
+    },
+    {
+      "id": "emergency",
+      "category": "health",
+      "emoji": "🚨",
+      "en": "Call emergency services",
+      "hi": "आपातकालीन सेवा बुलाएँ",
+      "kn": "ತುರ್ತು ಸೇವೆಗೆ ಕರೆ ಮಾಡಿ"
+    },
+    {
+      "id": "milk",
+      "category": "food",
+      "emoji": "🥛",
+      "en": "milk",
+      "hi": "दूध",
+      "kn": "ಹಾಲು"
+    },
+    {
+      "id": "rice",
+      "category": "food",
+      "emoji": "🍛",
+      "en": "rice",
+      "hi": "चावल",
+      "kn": "ಅನ್ನ"
+    },
+    {
+      "id": "breakfast",
+      "category": "food",
+      "emoji": "🍳",
+      "en": "breakfast",
+      "hi": "नाश्ता",
+      "kn": "ಉಪಾಹಾರ"
+    },
+    {
+      "id": "lunch",
+      "category": "food",
+      "emoji": "🥗",
+      "en": "lunch",
+      "hi": "दोपहर का खाना",
+      "kn": "ಮಧ್ಯಾಹ್ನದ ಊಟ"
+    },
+    {
+      "id": "dinner",
+      "category": "food",
+      "emoji": "🍲",
+      "en": "dinner",
+      "hi": "रात का खाना",
+      "kn": "ರಾತ್ರಿಯ ಊಟ"
+    },
+    {
+      "id": "hello",
+      "category": "social",
+      "emoji": "👋",
+      "en": "Hello",
+      "hi": "नमस्ते",
+      "kn": "ನಮಸ್ಕಾರ"
+    },
+    {
+      "id": "thanks",
+      "category": "social",
+      "emoji": "💛",
+      "en": "Thank you",
+      "hi": "धन्यवाद",
+      "kn": "ಧನ್ಯವಾದ"
+    },
+    {
+      "id": "please",
+      "category": "social",
+      "emoji": "🙏",
+      "en": "Please",
+      "hi": "कृपया",
+      "kn": "ದಯವಿಟ್ಟು"
+    },
+    {
+      "id": "yes",
+      "category": "social",
+      "emoji": "✅",
+      "en": "Yes",
+      "hi": "हाँ",
+      "kn": "ಹೌದು"
+    },
+    {
+      "id": "no",
+      "category": "social",
+      "emoji": "❌",
+      "en": "No",
+      "hi": "नहीं",
+      "kn": "ಇಲ್ಲ"
+    },
+    {
+      "id": "sorry",
+      "category": "social",
+      "emoji": "🫶",
+      "en": "Sorry",
+      "hi": "माफ़ कीजिए",
+      "kn": "ಕ್ಷಮಿಸಿ"
+    },
+    {
+      "id": "i-am",
+      "category": "feelings",
+      "emoji": "💬",
+      "en": "I am",
+      "hi": "मैं हूँ",
+      "kn": "ನಾನು"
+    },
+    {
+      "id": "i-need",
+      "category": "needs",
+      "emoji": "👐",
+      "en": "I need",
+      "hi": "मुझे चाहिए",
+      "kn": "ನನಗೆ ಬೇಕು"
+    },
+    {
+      "id": "i-want",
+      "category": "needs",
+      "emoji": "👉",
+      "en": "I want",
+      "hi": "मुझे चाहिए",
+      "kn": "ನನಗೆ ಬೇಕು"
+    }
+  ],
+  "starterPhrases": [
+    {
+      "id": "phrase-water",
+      "text": "I want water",
+      "translations": {
+        "hi": "मुझे पानी चाहिए",
+        "kn": "ನನಗೆ ನೀರು ಬೇಕು"
+      }
+    },
+    {
+      "id": "phrase-help",
+      "text": "I need help",
+      "translations": {
+        "hi": "मुझे मदद चाहिए",
+        "kn": "ನನಗೆ ಸಹಾಯ ಬೇಕು"
+      }
+    },
+    {
+      "id": "phrase-toilet",
+      "text": "I need the toilet",
+      "translations": {
+        "hi": "मुझे शौचालय जाना है",
+        "kn": "ನನಗೆ ಶೌಚಾಲಯಕ್ಕೆ ಹೋಗಬೇಕು"
+      }
+    },
+    {
+      "id": "phrase-emergency",
+      "text": "Call emergency services",
+      "translations": {
+        "hi": "आपातकालीन सेवा बुलाएँ",
+        "kn": "ತುರ್ತು ಸೇವೆಗೆ ಕರೆ ಮಾಡಿ"
+      }
+    }
+  ],
+  "suggestions": {
+    "i want": [
+      "water",
+      "food",
+      "go",
+      "home",
+      "help",
+      "sleep"
+    ],
+    "i need": [
+      "help",
+      "water",
+      "food",
+      "doctor",
+      "medicine",
+      "emergency"
+    ],
+    "i am": [
+      "hungry",
+      "thirsty",
+      "tired",
+      "scared",
+      "pain",
+      "happy"
+    ],
+    "मैं": [
+      "पानी",
+      "खाना"
+    ]
+  }
+}
